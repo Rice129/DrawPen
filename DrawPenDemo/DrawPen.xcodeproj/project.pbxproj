@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DE40F97178263F70069BF43 /* DrawImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE40F91178263F70069BF43 /* DrawImageCell.xib */; };
+		8DE40F98178263F70069BF43 /* DrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE40F93178263F70069BF43 /* DrawImageViewController.m */; };
+		8DE40F99178263F70069BF43 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE40F95178263F70069BF43 /* DrawView.m */; };
+		8DE40F9C178274DE0069BF43 /* DrawImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE40F9B178274DE0069BF43 /* DrawImageCell.m */; };
+		8DE40F9F178283FA0069BF43 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE40F9E178283FA0069BF43 /* ImageViewController.m */; };
+		8DE40FA11782B7100069BF43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE40FA01782B7100069BF43 /* icon.png */; };
+		AE304B251781657F006A3F08 /* WaterflowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE304B1E1781657F006A3F08 /* WaterflowCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE304B261781657F006A3F08 /* WaterflowRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE304B201781657F006A3F08 /* WaterflowRefreshFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE304B271781657F006A3F08 /* WaterflowRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE304B221781657F006A3F08 /* WaterflowRefreshHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE304B281781657F006A3F08 /* WaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE304B241781657F006A3F08 /* WaterflowView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE521E0117811BA8006279E0 /* PathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE521E0017811BA8006279E0 /* PathManager.m */; };
+		AEF6B586177E6A6C0034C9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF6B585177E6A6C0034C9C7 /* UIKit.framework */; };
+		AEF6B588177E6A6C0034C9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF6B587177E6A6C0034C9C7 /* Foundation.framework */; };
+		AEF6B58A177E6A6C0034C9C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF6B589177E6A6C0034C9C7 /* CoreGraphics.framework */; };
+		AEF6B590177E6A6C0034C9C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B58E177E6A6C0034C9C7 /* InfoPlist.strings */; };
+		AEF6B592177E6A6C0034C9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6B591177E6A6C0034C9C7 /* main.m */; };
+		AEF6B596177E6A6D0034C9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6B595177E6A6D0034C9C7 /* AppDelegate.m */; };
+		AEF6B598177E6A6D0034C9C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B597177E6A6D0034C9C7 /* Default.png */; };
+		AEF6B59A177E6A6D0034C9C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B599177E6A6D0034C9C7 /* Default@2x.png */; };
+		AEF6B59C177E6A6D0034C9C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B59B177E6A6D0034C9C7 /* Default-568h@2x.png */; };
+		AEF6B59F177E6A6D0034C9C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6B59E177E6A6D0034C9C7 /* ViewController.m */; };
+		AEF6B5A2177E6A6D0034C9C7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B5A0177E6A6D0034C9C7 /* ViewController_iPhone.xib */; };
+		AEF6B5A5177E6A6D0034C9C7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF6B5A3177E6A6D0034C9C7 /* ViewController_iPad.xib */; };
+		AEF6B5AF177E71CB0034C9C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF6B5AE177E71CB0034C9C7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DE40F91178263F70069BF43 /* DrawImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawImageCell.xib; sourceTree = "<group>"; };
+		8DE40F92178263F70069BF43 /* DrawImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageViewController.h; sourceTree = "<group>"; };
+		8DE40F93178263F70069BF43 /* DrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageViewController.m; sourceTree = "<group>"; };
+		8DE40F94178263F70069BF43 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		8DE40F95178263F70069BF43 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		8DE40F9A178274DE0069BF43 /* DrawImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageCell.h; sourceTree = "<group>"; };
+		8DE40F9B178274DE0069BF43 /* DrawImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageCell.m; sourceTree = "<group>"; };
+		8DE40F9D178283FA0069BF43 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		8DE40F9E178283FA0069BF43 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		8DE40FA01782B7100069BF43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AE304B1D1781657F006A3F08 /* WaterflowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowCell.h; sourceTree = "<group>"; };
+		AE304B1E1781657F006A3F08 /* WaterflowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowCell.m; sourceTree = "<group>"; };
+		AE304B1F1781657F006A3F08 /* WaterflowRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowRefreshFooterView.h; sourceTree = "<group>"; };
+		AE304B201781657F006A3F08 /* WaterflowRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowRefreshFooterView.m; sourceTree = "<group>"; };
+		AE304B211781657F006A3F08 /* WaterflowRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowRefreshHeaderView.h; sourceTree = "<group>"; };
+		AE304B221781657F006A3F08 /* WaterflowRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowRefreshHeaderView.m; sourceTree = "<group>"; };
+		AE304B231781657F006A3F08 /* WaterflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterflowView.h; sourceTree = "<group>"; };
+		AE304B241781657F006A3F08 /* WaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterflowView.m; sourceTree = "<group>"; };
+		AE521DFF17811BA8006279E0 /* PathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathManager.h; sourceTree = "<group>"; };
+		AE521E0017811BA8006279E0 /* PathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathManager.m; sourceTree = "<group>"; };
+		AEF6B582177E6A6C0034C9C7 /* DrawPen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF6B585177E6A6C0034C9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEF6B587177E6A6C0034C9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEF6B589177E6A6C0034C9C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEF6B58D177E6A6C0034C9C7 /* DrawPen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawPen-Info.plist"; sourceTree = "<group>"; };
+		AEF6B58F177E6A6C0034C9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEF6B591177E6A6C0034C9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEF6B593177E6A6C0034C9C7 /* DrawPen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawPen-Prefix.pch"; sourceTree = "<group>"; };
+		AEF6B594177E6A6C0034C9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF6B595177E6A6D0034C9C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF6B597177E6A6D0034C9C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AEF6B599177E6A6D0034C9C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AEF6B59B177E6A6D0034C9C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AEF6B59D177E6A6D0034C9C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF6B59E177E6A6D0034C9C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF6B5A1177E6A6D0034C9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AEF6B5A4177E6A6D0034C9C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		AEF6B5AE177E71CB0034C9C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF6B57F177E6A6C0034C9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF6B586177E6A6C0034C9C7 /* UIKit.framework in Frameworks */,
+				AEF6B588177E6A6C0034C9C7 /* Foundation.framework in Frameworks */,
+				AEF6B5AF177E71CB0034C9C7 /* QuartzCore.framework in Frameworks */,
+				AEF6B58A177E6A6C0034C9C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DE40F8E1782639E0069BF43 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				8DE40F92178263F70069BF43 /* DrawImageViewController.h */,
+				8DE40F93178263F70069BF43 /* DrawImageViewController.m */,
+				8DE40F9D178283FA0069BF43 /* ImageViewController.h */,
+				8DE40F9E178283FA0069BF43 /* ImageViewController.m */,
+				8DE40F94178263F70069BF43 /* DrawView.h */,
+				8DE40F95178263F70069BF43 /* DrawView.m */,
+				8DE40F9A178274DE0069BF43 /* DrawImageCell.h */,
+				8DE40F9B178274DE0069BF43 /* DrawImageCell.m */,
+				8DE40F91178263F70069BF43 /* DrawImageCell.xib */,
+			);
+			path = DrawView;
+			sourceTree = "<group>";
+		};
+		AE304B1C1781657F006A3F08 /* Waterflow */ = {
+			isa = PBXGroup;
+			children = (
+				AE304B1D1781657F006A3F08 /* WaterflowCell.h */,
+				AE304B1E1781657F006A3F08 /* WaterflowCell.m */,
+				AE304B1F1781657F006A3F08 /* WaterflowRefreshFooterView.h */,
+				AE304B201781657F006A3F08 /* WaterflowRefreshFooterView.m */,
+				AE304B211781657F006A3F08 /* WaterflowRefreshHeaderView.h */,
+				AE304B221781657F006A3F08 /* WaterflowRefreshHeaderView.m */,
+				AE304B231781657F006A3F08 /* WaterflowView.h */,
+				AE304B241781657F006A3F08 /* WaterflowView.m */,
+			);
+			path = Waterflow;
+			sourceTree = "<group>";
+		};
+		AEF6B579177E6A6C0034C9C7 = {
+			isa = PBXGroup;
+			children = (
+				AEF6B58B177E6A6C0034C9C7 /* DrawPen */,
+				AEF6B584177E6A6C0034C9C7 /* Frameworks */,
+				AEF6B583177E6A6C0034C9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF6B583177E6A6C0034C9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6B582177E6A6C0034C9C7 /* DrawPen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF6B584177E6A6C0034C9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6B5AE177E71CB0034C9C7 /* QuartzCore.framework */,
+				AEF6B585177E6A6C0034C9C7 /* UIKit.framework */,
+				AEF6B587177E6A6C0034C9C7 /* Foundation.framework */,
+				AEF6B589177E6A6C0034C9C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF6B58B177E6A6C0034C9C7 /* DrawPen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6B594177E6A6C0034C9C7 /* AppDelegate.h */,
+				AEF6B595177E6A6D0034C9C7 /* AppDelegate.m */,
+				AEF6B59D177E6A6D0034C9C7 /* ViewController.h */,
+				AEF6B59E177E6A6D0034C9C7 /* ViewController.m */,
+				AE521DFF17811BA8006279E0 /* PathManager.h */,
+				AE521E0017811BA8006279E0 /* PathManager.m */,
+				AEF6B5A0177E6A6D0034C9C7 /* ViewController_iPhone.xib */,
+				AEF6B5A3177E6A6D0034C9C7 /* ViewController_iPad.xib */,
+				8DE40F8E1782639E0069BF43 /* DrawView */,
+				AE304B1C1781657F006A3F08 /* Waterflow */,
+				AEF6B58C177E6A6C0034C9C7 /* Supporting Files */,
+			);
+			path = DrawPen;
+			sourceTree = "<group>";
+		};
+		AEF6B58C177E6A6C0034C9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6B58D177E6A6C0034C9C7 /* DrawPen-Info.plist */,
+				AEF6B58E177E6A6C0034C9C7 /* InfoPlist.strings */,
+				AEF6B591177E6A6C0034C9C7 /* main.m */,
+				AEF6B593177E6A6C0034C9C7 /* DrawPen-Prefix.pch */,
+				8DE40FA01782B7100069BF43 /* icon.png */,
+				AEF6B597177E6A6D0034C9C7 /* Default.png */,
+				AEF6B599177E6A6D0034C9C7 /* Default@2x.png */,
+				AEF6B59B177E6A6D0034C9C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF6B581177E6A6C0034C9C7 /* DrawPen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF6B5A8177E6A6D0034C9C7 /* Build configuration list for PBXNativeTarget "DrawPen" */;
+			buildPhases = (
+				AEF6B57E177E6A6C0034C9C7 /* Sources */,
+				AEF6B57F177E6A6C0034C9C7 /* Frameworks */,
+				AEF6B580177E6A6C0034C9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPen;
+			productName = DrawPen;
+			productReference = AEF6B582177E6A6C0034C9C7 /* DrawPen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF6B57A177E6A6C0034C9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lingmin;
+			};
+			buildConfigurationList = AEF6B57D177E6A6C0034C9C7 /* Build configuration list for PBXProject "DrawPen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEF6B579177E6A6C0034C9C7;
+			productRefGroup = AEF6B583177E6A6C0034C9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF6B581177E6A6C0034C9C7 /* DrawPen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF6B580177E6A6C0034C9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF6B590177E6A6C0034C9C7 /* InfoPlist.strings in Resources */,
+				AEF6B598177E6A6D0034C9C7 /* Default.png in Resources */,
+				AEF6B59A177E6A6D0034C9C7 /* Default@2x.png in Resources */,
+				AEF6B59C177E6A6D0034C9C7 /* Default-568h@2x.png in Resources */,
+				AEF6B5A2177E6A6D0034C9C7 /* ViewController_iPhone.xib in Resources */,
+				AEF6B5A5177E6A6D0034C9C7 /* ViewController_iPad.xib in Resources */,
+				8DE40F97178263F70069BF43 /* DrawImageCell.xib in Resources */,
+				8DE40FA11782B7100069BF43 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF6B57E177E6A6C0034C9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF6B592177E6A6C0034C9C7 /* main.m in Sources */,
+				AEF6B596177E6A6D0034C9C7 /* AppDelegate.m in Sources */,
+				AEF6B59F177E6A6D0034C9C7 /* ViewController.m in Sources */,
+				AE521E0117811BA8006279E0 /* PathManager.m in Sources */,
+				AE304B251781657F006A3F08 /* WaterflowCell.m in Sources */,
+				AE304B261781657F006A3F08 /* WaterflowRefreshFooterView.m in Sources */,
+				AE304B271781657F006A3F08 /* WaterflowRefreshHeaderView.m in Sources */,
+				AE304B281781657F006A3F08 /* WaterflowView.m in Sources */,
+				8DE40F98178263F70069BF43 /* DrawImageViewController.m in Sources */,
+				8DE40F99178263F70069BF43 /* DrawView.m in Sources */,
+				8DE40F9C178274DE0069BF43 /* DrawImageCell.m in Sources */,
+				8DE40F9F178283FA0069BF43 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEF6B58E177E6A6C0034C9C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF6B58F177E6A6C0034C9C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEF6B5A0177E6A6D0034C9C7 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF6B5A1177E6A6D0034C9C7 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AEF6B5A3177E6A6D0034C9C7 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF6B5A4177E6A6D0034C9C7 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF6B5A6177E6A6D0034C9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF6B5A7177E6A6D0034C9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF6B5A9177E6A6D0034C9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawPen/DrawPen-Prefix.pch";
+				INFOPLIST_FILE = "DrawPen/DrawPen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEF6B5AA177E6A6D0034C9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawPen/DrawPen-Prefix.pch";
+				INFOPLIST_FILE = "DrawPen/DrawPen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF6B57D177E6A6C0034C9C7 /* Build configuration list for PBXProject "DrawPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF6B5A6177E6A6D0034C9C7 /* Debug */,
+				AEF6B5A7177E6A6D0034C9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF6B5A8177E6A6D0034C9C7 /* Build configuration list for PBXNativeTarget "DrawPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF6B5A9177E6A6D0034C9C7 /* Debug */,
+				AEF6B5AA177E6A6D0034C9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF6B57A177E6A6C0034C9C7 /* Project object */;
+}
